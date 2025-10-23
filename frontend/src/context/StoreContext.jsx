@@ -7,7 +7,7 @@ export const StoreContext = createContext(null)
 const StoreContextProvider = (props) => {
 
     const [cartItems,setCartItems] = useState({});
-    const url = "https://sixlicious-backend-production.up.railway.app/api";
+    const url = "sixlicious-backend-production.up.railway.app/api";
     const [token,setToken] = useState("");
     const [food_list,setFoodList] = useState([])
 
